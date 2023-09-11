@@ -1,0 +1,157 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(214, 237, 245);
+    /*background-color: #ffffff;*/
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    padding: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: white;
+    text-align: center;
+    font-family: '나눔스퀘어 ExtraBold';
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding: 10px;
+    line-height: 100%;
+}
+.dices{
+    display: flex;
+    flex-flow: column wrap;   
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.dice{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin: 26px 50px;
+    background-image: url(https://i.imgur.com/Q85K3p9.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dice_one{
+    background-image: url(https://i.imgur.com/lurRDsm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dice_two{
+    background-image: url(https://i.imgur.com/SXBkQ2H.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dice_three{
+    background-image: url(https://i.imgur.com/s9AB9Rb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dice_four{
+    background-image: url(https://i.imgur.com/ZxkKa7d.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dice_five{
+    background-image: url(https://i.imgur.com/xRjZd0Y.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dice_six{
+    background-image: url(https://i.imgur.com/QktzGiY.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.buttonarea{
+    width: 100%;
+    background-color: rgb(214, 237, 245);
+    display: flex;
+    flex-flow: column wrap;   
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: inline-block;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+.button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.confirm{
+    margin-top: 20px;
+    border: 8px solid #000000;
+    font-family: '나눔스퀘어 네오 Heavy';
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding: 7px 15px;
+}
+.score{
+    display: none;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;;
+    padding: 30px;
+}
+table {
+    border: 8px solid #000000;
+    border-left: 0px;
+    border-collapse: collapse;
+}
+tr, td{
+    border: 8px solid #000000;
+    border-left: 0px;
+    padding: 25px 40px;
+}
+thead{
+    border-bottom: 8px solid #000000;
+    font-family: '나눔스퀘어 네오 Heavy';
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+tbody{
+    font-family: '나눔스퀘어 네오 Extrabold';
+    font-size:38px;
+    letter-spacing: 0px;
+}
+tfoot{
+    border-top: 8px solid #000000;
+    font-family: '나눔스퀘어 네오 Heavy';
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+.bonus{
+    border-top: 7px solid #000000;
+    border-bottom: 7px solid #000000;
+    background-color: #c3c3c3;
+}
+.categories {
+    border-left: 8px solid #000000;
+    width: 42%;
+}
+.Player1 {
+    width: 28%;
+}
+.hidden {
+    display: none;
+}

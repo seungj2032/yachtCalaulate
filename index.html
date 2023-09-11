@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>YachtDice Calculate</title>
+    <style> @import url(Yacht_calculate_phone.css); </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  </head>
+  <body>
+    <div class="container dices">
+      <div class="dice" id="dice1">
+        &nbsp
+      </div>
+      <div class="dice" id="dice2">
+        &nbsp
+      </div>
+      <div class="dice" id="dice3">
+        &nbsp
+      </div>
+      <div class="dice" id="dice4">
+        &nbsp
+      </div>
+      <div class="dice" id="dice5">
+        &nbsp
+      </div>
+    </div>
+    <div class="container score" id="score">
+      <table class="categories">
+        <thead>
+          <tr><td>&nbsp</td></tr>
+        </thead>
+        <tbody>
+          <tr><td>Aces</td></tr>
+          <tr><td>Deuces</td></tr>
+          <tr><td>Threes</td></tr>
+          <tr><td>Fours</td></tr>
+          <tr><td>Fives</td></tr>
+          <tr><td>Sixes</td></tr>
+          <tr><td class="bonus" style="color: white; background-color: #3f3f3f;">Bonus</td></tr>
+          <tr><td>Choice</td></tr>
+          <tr><td>4 of a Kind</td></tr>
+          <tr><td>Full House</td></tr>
+          <tr><td>S.Straight</td></tr>
+          <tr><td>L.Straight</td></tr>
+          <tr><td>Yacht</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td>합계</td></tr>
+        </tfoot>
+      </table>
+      <table class="Player1">
+        <thead>
+          <tr><td>점수</td></tr>
+        </thead>
+        <tbody id="Player1">
+          <tr><td>&nbsp</td></tr>
+          <tr><td>&nbsp</td></tr>
+          <tr><td>&nbsp</td></tr>
+          <tr><td>&nbsp</td></tr>
+          <tr><td>&nbsp</td></tr>
+          <tr><td>&nbsp</td></tr>
+          <tr><td class="bonus">&nbsp</td></tr>
+          <tr><td>&nbsp</td></tr>
+          <tr><td>&nbsp</td></tr>
+          <tr><td>&nbsp</td></tr>
+          <tr><td>&nbsp</td></tr>
+          <tr><td>&nbsp</td></tr>
+          <tr><td>&nbsp</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td>&nbsp</td></tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="container buttonarea">
+      <button class="button confirm" onclick="confirm()">확정</button>
+    </div>
+    <script src="Yacht_calculate_phone.js"></script>
+  </body>
+</html>
