@@ -20,7 +20,7 @@ body{
     align-items: stretch;
     background-color: white;
     text-align: center;
-    font-family: '나눔스퀘어 ExtraBold';
+    font-family: 'NanumSquareNeo ExtraBold';
     font-size: 32px;
     letter-spacing: 2px;
     padding: 10px;
@@ -101,7 +101,7 @@ body{
 .confirm{
     margin-top: 20px;
     border: 8px solid #000000;
-    font-family: '나눔스퀘어 네오 Heavy';
+    font-family: 'NanumSquareNeo Heavy';
     font-size: 50px;
     letter-spacing: 1px;
     padding: 7px 15px;
@@ -125,18 +125,18 @@ tr, td{
 }
 thead{
     border-bottom: 8px solid #000000;
-    font-family: '나눔스퀘어 네오 Heavy';
+    font-family: 'NanumSquareNeo Heavy';
     font-size: 42px;
     letter-spacing: 1px;
 }
 tbody{
-    font-family: '나눔스퀘어 네오 Extrabold';
+    font-family: 'NanumSquareNeo Extrabold';
     font-size:38px;
     letter-spacing: 0px;
 }
 tfoot{
     border-top: 8px solid #000000;
-    font-family: '나눔스퀘어 네오 Heavy';
+    font-family: 'NanumSquareNeo Heavy';
     font-size: 48px;
     letter-spacing: 5px;
 }
